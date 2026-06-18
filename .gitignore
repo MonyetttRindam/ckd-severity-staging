@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML model artifacts
+*.pkl
+*.pickle
+*.cbm
+*.joblib
+*.h5
+*.pt
+*.pth
+models/*.pkl
+models/*.cbm
+models/*.joblib
+
+# But DO commit models in models/ folder (small enough for GitHub)
+!models/*.pkl
+!models/*.cbm
+
+# Data — raw data is not committed (see data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
+.env.local
+# CatBoost training logs (auto-generated)
+catboost_info/
+**/catboost_info/

@@ -1,0 +1,23 @@
+# Data
+pandas>=2.2,<2.3
+numpy>=1.26,<2.0
+
+# Machine Learning
+scikit-learn>=1.5,<1.6
+xgboost>=2.1,<3.0
+catboost>=1.2,<1.3
+
+# Explainability
+shap>=0.45,<0.46
+
+# Visualization
+matplotlib>=3.9,<4.0
+seaborn>=0.13,<0.14
+plotly>=5.20,<6.0
+
+# App
+streamlit>=1.35,<2.0
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.29
