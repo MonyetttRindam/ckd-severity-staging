@@ -11,6 +11,19 @@ A cascaded machine learning pipeline for chronic kidney disease (CKD) detection 
 
 The cascaded architecture means Model 2 is only invoked when Model 1 flags a patient as CKD-positive.
 
+## 📊 Dataset
+
+This project uses the **CKD NHANES 2021-2023 Staged Kidney Disease** dataset from Kaggle, curated by Ali Taqi Shah:
+
+🔗 [CKD NHANES 2021-2023 Staged Kidney Disease (Kaggle)](https://www.kaggle.com/datasets/alitaqishah/ckd-nhanes-2021-2023-staged-kidney-disease)
+
+The dataset is derived from the U.S. **National Health and Nutrition Examination Survey (NHANES) 2021-2023 cycle**, with CKD staging labels applied based on standard clinical criteria (eGFR + albuminuria).
+
+**Stage grouping used in this project:**
+- **Early**: Stage 1
+- **Moderate**: Stage 2
+- **Advanced**: Stages 3a, 3b, 4, 5
+
 ## 🚀 Live Demo
 
 Try the interactive app: **[ckd-screening.streamlit.app](https://ckd-screening.streamlit.app/)**
